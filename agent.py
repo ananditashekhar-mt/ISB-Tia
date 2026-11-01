@@ -35,7 +35,7 @@ def shipment_summary(order):
     """Grounded, human-readable description of the order's last recorded shipment event."""
     events = order.get('Shipment_Events') or []
     if not events:return None
-    last = events[-1]
+    last = max(events, key=lambda event: event['Date'])
     text = f"{last['Status']} on {str(last['Date'])[:10]}"
     if last.get('Location'):text += f" near {last['Location']}"
     note = (last.get('Note') or '').rstrip('.')
@@ -182,6 +182,7 @@ class Agent:
                 mode TEXT NOT NULL, error_type TEXT NOT NULL, message TEXT NOT NULL, created_at TEXT NOT NULL);''')
         for row in self.catalog:
             self.db.execute('INSERT OR IGNORE INTO stock VALUES(?,?)',(self.variant(row),row['Stock_Qty']))
+        self.db.execute('CREATE TABLE IF NOT EXISTS request_updates (action_id TEXT PRIMARY KEY, status TEXT NOT NULL, assignee TEXT NOT NULL, note TEXT NOT NULL, updated_at TEXT NOT NULL)')
         self.db.commit()
         from langgraph.graph import StateGraph, START, END
         graph=StateGraph(State)
@@ -219,23 +220,30 @@ class Agent:
         if not p.get('order_id'):return done('Please share your order ID, for example ORD-10003.')
         if not o or (self.allowed_order_ids is not None and o['Order_ID'] not in self.allowed_order_ids):
             return done('I could not find that order in this customer profile. Please check the order ID.')
-        status=o['Order_Status'];delivered=o.get('Delivered_Date')
+        requests=self.order_requests(o['Order_ID'], self.current_customer, self.current_session)
+        cancellation=next((r for r in requests if r['kind']=='cancellation' and r['status']=='completed'),None)
+        status='Cancelled' if cancellation else o['Order_Status'];delivered=o.get('Delivered_Date')
         if intent=='order_tracking':
             out['tools'].append('check_delivery_status')
             text=f"{o['Order_ID']} is {status.lower()}. Carrier: {o['Carrier']}. Tracking ID: {o['Tracking_ID']}. Promised delivery: {str(o['Promised_Delivery'])[:10]}."
             scan=shipment_summary(o)
-            if scan:text+=f" Latest recorded update: {scan}"
-            text+=" This is the dataset status; live third-party carrier scans are unavailable."
+            if scan and not cancellation:text+=f" Latest recorded shipment update: {scan}"
+            for request in requests:
+                text+=f" Request {request['id']} ({request['kind']}): {request['status'].replace('_',' ')}."
+                if request['note']:text+=f" Support update: {request['note']}"
+            text+=" This is a simulated record; live third-party carrier scans are unavailable."
             return done(text,'answered')
         if intent in ['delivery_delay','delivered_not_received','missing_item']:
             out['tools'].append('check_delivery_status')
             detail=''
-            if intent=='missing_item' and o.get('Delivered_Qty') is not None and o['Delivered_Qty']<o['Qty']:
+            if intent=='missing_item' and status=='Delivered' and o.get('Issue_Type')=='Partial Delivery' and o.get('Delivered_Qty') is not None and o['Delivered_Qty']<o['Qty']:
                 detail=f" Our records show {o['Delivered_Qty']} of {o['Qty']} item(s) delivered; the remaining item is reported missing."
             scan=shipment_summary(o)
             if scan:detail+=f" Latest recorded update: {scan}"
             return escalation(f"The recorded order status is {status}.{detail} Live third-party carrier verification beyond this record is unavailable, so I cannot fully verify this delivery problem.")
         if intent=='cancel_order':
+            active=next((r for r in requests if r['kind']=='cancellation' and r['status'] in ('pending','in_progress')),None)
+            if active:return done(f"Cancellation request {active['id']} is {active['status'].replace('_',' ')}. Cancellation is not complete yet.",'answered')
             if status=='Cancelled':return done('This order is already cancelled.','answered')
             if status!='Confirmed' or o.get('Shipped_Date'):
                 return done('Cancellation is only allowed before carrier handover. This record does not establish that cancellation is possible.','blocked')
@@ -295,6 +303,7 @@ class Agent:
             (str(uuid.uuid4()),conversation_id,customer_id,request_id,self.model.model,inputs,outputs,requests,usd,usd*usd_inr,self.now()))
     def chat(self,message,memory=None,history=None,today=None,condition_ok=False,session='demo',
              customer_id='anonymous',input_rate=0,output_rate=0,usd_inr=0,allowed_order_ids=None, customer_name=None):
+        self.current_session=session;self.current_customer=customer_id
         self.customer_name=customer_name
         self.today=today or date(2026,9,17);self.condition_ok=condition_ok
         self.allowed_order_ids=set(allowed_order_ids) if allowed_order_ids is not None else None
@@ -363,8 +372,27 @@ class Agent:
                  FROM conversations c JOIN messages m ON m.conversation_id=c.id
                  GROUP BY c.id HAVING COUNT(m.id)>0 ORDER BY c.updated_at DESC''')]
     def support_actions(self):
-        return [{'id':r[0],'conversation_id':r[1],'order_id':r[2],'kind':r[3],'details':json.loads(r[4])}
-                for r in self.db.execute('SELECT id,session,order_id,kind,payload FROM actions ORDER BY rowid DESC')]
+        return [{'id':r[0],'conversation_id':r[1],'order_id':r[2],'kind':r[3],
+                 'details':json.loads(r[4]),'status':r[5] or 'pending','assignee':r[6] or '',
+                 'note':r[7] or '', 'updated_at':r[8]} for r in self.db.execute(
+            """SELECT a.id,a.session,a.order_id,a.kind,a.payload,u.status,u.assignee,u.note,u.updated_at
+               FROM actions a LEFT JOIN request_updates u ON u.action_id=a.id ORDER BY a.rowid DESC""")]
+    def order_requests(self,order_id,customer_id,session=None):
+        # Anonymous sessions must never see each other's requests.
+        sessions={r[0] for r in self.db.execute('SELECT id FROM conversations WHERE customer_id=?',(customer_id,))} if customer_id!='anonymous' else {session}
+        return [r for r in self.support_actions() if r['order_id']==order_id and r['conversation_id'] in sessions]
+    def update_request(self,action_id,status,assignee='',note=''):
+        if status not in ('pending','in_progress','completed','rejected'):
+            raise ValueError('Invalid request status.')
+        row=self.db.execute('SELECT a.session,c.customer_id FROM actions a JOIN conversations c ON c.id=a.session WHERE a.id=?',(action_id,)).fetchone()
+        if not row:raise ValueError('Unknown request.')
+        with self.db:
+            self.db.execute('INSERT OR REPLACE INTO request_updates VALUES(?,?,?,?,?)',
+                            (action_id,status,assignee.strip(),note.strip(),self.now()))
+            text=f"Simulated Support update for {action_id}: {status.replace('_',' ')}."
+            if note.strip():text+=' '+note.strip()
+            self.log_message(row[0],row[1],'assistant',text)
+            self.db.execute('UPDATE conversations SET updated_at=? WHERE id=?',(self.now(),row[0]))
     def usage_summary(self,customer_id=None):
         where=' WHERE customer_id=?' if customer_id else '';params=(customer_id,) if customer_id else ()
         row=self.db.execute('SELECT COALESCE(SUM(api_requests),0),COALESCE(SUM(input_tokens),0),COALESCE(SUM(output_tokens),0),COALESCE(SUM(estimated_cost_usd),0),COALESCE(SUM(estimated_cost_inr),0) FROM api_usage'+where,params).fetchone()

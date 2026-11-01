@@ -172,15 +172,21 @@ def customer_view():
     if mode=='Ollama':
         if not model:st.warning('Ollama mode needs an OLLAMA_MODEL value, such as the name of a model you have pulled.')
         else:st.info(f'Ollama will use {model}. Make sure the local Ollama service is running.')
+    def order_status(order):
+        requests=agent.order_requests(order['Order_ID'],cid,st.session_state.conversation_id)
+        return 'Cancelled (simulated)' if any(r['kind']=='cancellation' and r['status']=='completed' for r in requests) else order['Order_Status']
     order_ids=[order['Order_ID'] for order in profile['orders']]
-    order_labels={f"{order['Order_ID']} · {order['Product_Name']} · {order['Order_Status']}":order['Order_ID'] for order in profile['orders']}
+    order_labels={f"{order['Order_ID']} · {order['Product_Name']} · {order_status(order)}":order['Order_ID'] for order in profile['orders']}
     active_order=order_labels[st.selectbox('Order to discuss',list(order_labels))]
     selected_order=next(order for order in profile['orders'] if order['Order_ID']==active_order)
+    displayed_status=order_status(selected_order)
     st.markdown(f'''<div class="order-card"><div class="eyebrow">Selected order · {html.escape(active_order)}</div>
         <h3>{html.escape(selected_order['Product_Name'])}</h3>
         <div>{html.escape(selected_order['Colour'])} · Size {html.escape(selected_order['Size'])} · Qty {selected_order['Qty']}</div><br>
-        <span class="status-pill">{html.escape(selected_order['Order_Status'])}</span>
+        <span class="status-pill">{html.escape(displayed_status)}</span>
         <span style="margin-left:10px;color:#746b66">Promised {str(selected_order['Promised_Delivery'])[:10]}</span></div>''',unsafe_allow_html=True)
+    for request in agent.order_requests(active_order,cid,st.session_state.conversation_id):
+        st.info(f"Request {request['id']} ({request['kind']}): {request['status'].replace('_',' ')}. {request['note']}")
     if selected_order.get('Issue_Type'):
         st.warning(f"{selected_order['Issue_Type']} reported on {str(selected_order['Issue_Reported_Date'])[:10]}.")
     events=selected_order.get('Shipment_Events') or []
@@ -193,7 +199,7 @@ def customer_view():
                 if event.get('Note'):st.caption(event['Note'])
     with st.expander(f"View all orders ({len(profile['orders'])})"):
         st.dataframe([{'Order':o['Order_ID'],'Product':o['Product_Name'],'Size':o['Size'],'Colour':o['Colour'],
-            'Status':o['Order_Status'],'Promised delivery':str(o['Promised_Delivery'])[:10]} for o in profile['orders']],hide_index=True,width='stretch')
+            'Status':order_status(o),'Promised delivery':str(o['Promised_Delivery'])[:10]} for o in profile['orders']],hide_index=True,width='stretch')
     if st.session_state.memory.get('order_id')!=active_order:
         st.session_state.memory={'order_id':active_order}
 
@@ -214,6 +220,7 @@ def customer_view():
     st.divider()
     if not st.session_state.history:
         st.info('Try asking: “Where is my order?”, “Can I return this?”, or “Can I exchange this for another size?”')
+    st.session_state.history=agent.messages(st.session_state.conversation_id,cid)
     for message in st.session_state.history:
         render_message(message)
 
@@ -311,7 +318,18 @@ def support_view():
                 render_message(message,show_meta=True)
     with requests:
         rows=agent.support_actions()
-        if rows:st.dataframe(rows,hide_index=True,width='stretch')
+        if rows:
+            st.dataframe(rows,hide_index=True,width='stretch')
+            request_id=st.selectbox('Update request',[r['id'] for r in rows])
+            request=next(r for r in rows if r['id']==request_id)
+            with st.form('support_update_'+request_id):
+                statuses=['pending','in_progress','completed','rejected']
+                status=st.selectbox('Status',statuses,index=statuses.index(request['status']))
+                assignee=st.text_input('Assigned to',value=request['assignee'])
+                note=st.text_area('Reply visible to the customer',value=request['note'])
+                st.caption('Updates are simulated. Completing a cancellation marks it cancelled in subsequent tracking replies.')
+                if st.form_submit_button('Save update'):
+                    agent.update_request(request_id,status,assignee,note);st.rerun()
         else:st.info('No mock requests have been created.')
 
 

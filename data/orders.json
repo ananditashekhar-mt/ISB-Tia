@@ -20,7 +20,7 @@
     "Tracking_ID": "TRK48089166",
     "Order_Total_INR": 1899,
     "Payment_Method": "Debit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -59,7 +59,7 @@
     "Tracking_ID": "TRK71124923",
     "Order_Total_INR": 1299,
     "Payment_Method": "COD",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -98,7 +98,7 @@
     "Tracking_ID": "TRK39372360",
     "Order_Total_INR": 1899,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -275,7 +275,7 @@
     "Tracking_ID": "TRK30509175",
     "Order_Total_INR": 2199,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -314,7 +314,7 @@
     "Tracking_ID": "TRK88393811",
     "Order_Total_INR": 1299,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -365,7 +365,7 @@
     "Tracking_ID": "TRK75529051",
     "Order_Total_INR": 1899,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -404,7 +404,7 @@
     "Tracking_ID": "TRK72732043",
     "Order_Total_INR": 2299,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -500,7 +500,7 @@
     "Tracking_ID": "TRK20993268",
     "Order_Total_INR": 2499,
     "Payment_Method": "COD",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -602,7 +602,7 @@
     "Tracking_ID": "TRK51746937",
     "Order_Total_INR": 2199,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -647,7 +647,7 @@
     "Tracking_ID": "TRK50477742",
     "Order_Total_INR": 1899,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -686,7 +686,7 @@
     "Tracking_ID": "TRK66379329",
     "Order_Total_INR": 1899,
     "Payment_Method": "COD",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -737,7 +737,7 @@
     "Tracking_ID": "TRK72394301",
     "Order_Total_INR": 699,
     "Payment_Method": "COD",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -788,7 +788,7 @@
     "Tracking_ID": "TRK55150390",
     "Order_Total_INR": 1899,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -896,7 +896,7 @@
     "Tracking_ID": "TRK12314351",
     "Order_Total_INR": 1299,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -947,7 +947,7 @@
     "Tracking_ID": "TRK83871890",
     "Order_Total_INR": 2199,
     "Payment_Method": "Debit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -998,7 +998,7 @@
     "Tracking_ID": "TRK81922443",
     "Order_Total_INR": 2099,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -1037,7 +1037,7 @@
     "Tracking_ID": "TRK49761527",
     "Order_Total_INR": 1999,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -1076,7 +1076,7 @@
     "Tracking_ID": "TRK26948946",
     "Order_Total_INR": 2099,
     "Payment_Method": "COD",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -1115,7 +1115,7 @@
     "Tracking_ID": "TRK25312516",
     "Order_Total_INR": 699,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -1211,7 +1211,7 @@
     "Tracking_ID": "TRK37888820",
     "Order_Total_INR": 1699,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -1325,7 +1325,7 @@
     "Tracking_ID": "TRK25405014",
     "Order_Total_INR": 2199,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -1421,7 +1421,7 @@
     "Tracking_ID": "TRK53261270",
     "Order_Total_INR": 2199,
     "Payment_Method": "Debit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -1460,7 +1460,7 @@
     "Tracking_ID": "TRK79654147",
     "Order_Total_INR": 799,
     "Payment_Method": "COD",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -1505,7 +1505,7 @@
     "Tracking_ID": "TRK31585546",
     "Order_Total_INR": 2299,
     "Payment_Method": "Debit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -1556,7 +1556,7 @@
     "Tracking_ID": "TRK25558733",
     "Order_Total_INR": 2699,
     "Payment_Method": "COD",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -1595,7 +1595,7 @@
     "Tracking_ID": "TRK16927215",
     "Order_Total_INR": 1799,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -1748,7 +1748,7 @@
     "Tracking_ID": "TRK47077298",
     "Order_Total_INR": 2199,
     "Payment_Method": "COD",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -1787,7 +1787,7 @@
     "Tracking_ID": "TRK69934576",
     "Order_Total_INR": 2399,
     "Payment_Method": "COD",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -1826,7 +1826,7 @@
     "Tracking_ID": "TRK15858241",
     "Order_Total_INR": 2099,
     "Payment_Method": "Debit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -1877,7 +1877,7 @@
     "Tracking_ID": "TRK69096899",
     "Order_Total_INR": 2199,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -2048,7 +2048,7 @@
     "Tracking_ID": "TRK29538047",
     "Order_Total_INR": 2299,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -2144,7 +2144,7 @@
     "Tracking_ID": "TRK69287967",
     "Order_Total_INR": 2199,
     "Payment_Method": "Debit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -2183,7 +2183,7 @@
     "Tracking_ID": "TRK41837210",
     "Order_Total_INR": 1899,
     "Payment_Method": "COD",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -2234,7 +2234,7 @@
     "Tracking_ID": "TRK48412328",
     "Order_Total_INR": 1899,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -2273,7 +2273,7 @@
     "Tracking_ID": "TRK69166287",
     "Order_Total_INR": 1699,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -2342,7 +2342,7 @@
       },
       {
         "Status": "Out for Delivery",
-        "Date": "2026-08-18 19:00:00",
+        "Date": "2026-08-19 00:00:00",
         "Location": "Delhi",
         "Note": "With the Ecom Express courier for final mile delivery."
       },
@@ -2381,7 +2381,7 @@
     "Tracking_ID": "TRK22120246",
     "Order_Total_INR": 2199,
     "Payment_Method": "COD",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -2405,7 +2405,7 @@
       },
       {
         "Status": "Out for Delivery",
-        "Date": "2026-08-09 19:00:00",
+        "Date": "2026-08-10 00:00:00",
         "Location": "Delhi",
         "Note": "With the Ecom Express courier for final mile delivery."
       }
@@ -2489,7 +2489,7 @@
     "Tracking_ID": "TRK28760553",
     "Order_Total_INR": 1699,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -2540,7 +2540,7 @@
     "Tracking_ID": "TRK59796322",
     "Order_Total_INR": 999,
     "Payment_Method": "COD",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -2579,7 +2579,7 @@
     "Tracking_ID": "TRK69509870",
     "Order_Total_INR": 1899,
     "Payment_Method": "COD",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -2744,7 +2744,7 @@
     "Tracking_ID": "TRK11994519",
     "Order_Total_INR": 899,
     "Payment_Method": "Debit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -2783,7 +2783,7 @@
     "Tracking_ID": "TRK18530615",
     "Order_Total_INR": 2199,
     "Payment_Method": "COD",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -2954,7 +2954,7 @@
     "Tracking_ID": "TRK25356396",
     "Order_Total_INR": 1699,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -3005,7 +3005,7 @@
     "Tracking_ID": "TRK67279295",
     "Order_Total_INR": 2699,
     "Payment_Method": "Debit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -3107,7 +3107,7 @@
     "Tracking_ID": "TRK23905032",
     "Order_Total_INR": 1899,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -3131,7 +3131,7 @@
       },
       {
         "Status": "Out for Delivery",
-        "Date": "2026-09-12 19:00:00",
+        "Date": "2026-09-13 00:00:00",
         "Location": "Kolkata",
         "Note": "With the Ecom Express courier for final mile delivery."
       }
@@ -3158,7 +3158,7 @@
     "Tracking_ID": "TRK67594492",
     "Order_Total_INR": 899,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -3260,7 +3260,7 @@
     "Tracking_ID": "TRK86181117",
     "Order_Total_INR": 799,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -3482,7 +3482,7 @@
     "Tracking_ID": "TRK63293990",
     "Order_Total_INR": 799,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -3533,7 +3533,7 @@
     "Tracking_ID": "TRK48858073",
     "Order_Total_INR": 2699,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -3572,7 +3572,7 @@
     "Tracking_ID": "TRK68475513",
     "Order_Total_INR": 2499,
     "Payment_Method": "COD",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -3596,7 +3596,7 @@
       },
       {
         "Status": "Out for Delivery",
-        "Date": "2026-07-06 19:00:00",
+        "Date": "2026-07-07 00:00:00",
         "Location": "Chennai",
         "Note": "With the Blue Dart courier for final mile delivery."
       }
@@ -3623,7 +3623,7 @@
     "Tracking_ID": "TRK78515906",
     "Order_Total_INR": 1799,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -3674,7 +3674,7 @@
     "Tracking_ID": "TRK33286644",
     "Order_Total_INR": 1799,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -3719,7 +3719,7 @@
     "Tracking_ID": "TRK30261159",
     "Order_Total_INR": 1299,
     "Payment_Method": "COD",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -3758,7 +3758,7 @@
     "Tracking_ID": "TRK71974027",
     "Order_Total_INR": 1299,
     "Payment_Method": "COD",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -3797,7 +3797,7 @@
     "Tracking_ID": "TRK87890494",
     "Order_Total_INR": 999,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -3848,7 +3848,7 @@
     "Tracking_ID": "TRK56095437",
     "Order_Total_INR": 2299,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -3950,7 +3950,7 @@
     "Tracking_ID": "TRK43822301",
     "Order_Total_INR": 2499,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -4139,13 +4139,13 @@
       },
       {
         "Status": "Out for Delivery",
-        "Date": "2026-07-19 19:00:00",
+        "Date": "2026-07-21 00:00:00",
         "Location": "Noida",
         "Note": "With the Ecom Express courier for final mile delivery."
       },
       {
         "Status": "Delivered",
-        "Date": "2026-07-20 00:00:00",
+        "Date": "2026-07-21 00:00:00",
         "Location": "Noida",
         "Note": "Received by customer."
       }
@@ -4229,7 +4229,7 @@
     "Tracking_ID": "TRK61254050",
     "Order_Total_INR": 2299,
     "Payment_Method": "COD",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -4502,7 +4502,7 @@
     "Tracking_ID": "TRK24879094",
     "Order_Total_INR": 699,
     "Payment_Method": "COD",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -4610,7 +4610,7 @@
     "Tracking_ID": "TRK73100462",
     "Order_Total_INR": 799,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -4634,7 +4634,7 @@
       },
       {
         "Status": "Out for Delivery",
-        "Date": "2026-07-13 19:00:00",
+        "Date": "2026-07-15 00:00:00",
         "Location": "Noida",
         "Note": "With the Xpressbees courier for final mile delivery."
       }
@@ -4661,7 +4661,7 @@
     "Tracking_ID": "TRK27905932",
     "Order_Total_INR": 2499,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -4700,7 +4700,7 @@
     "Tracking_ID": "TRK71428713",
     "Order_Total_INR": 2099,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -4724,7 +4724,7 @@
       },
       {
         "Status": "Out for Delivery",
-        "Date": "2026-09-11 19:00:00",
+        "Date": "2026-09-12 00:00:00",
         "Location": "Gurugram",
         "Note": "With the Delhivery courier for final mile delivery."
       }
@@ -4877,7 +4877,7 @@
     "Tracking_ID": "TRK53112268",
     "Order_Total_INR": 2199,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -4928,7 +4928,7 @@
     "Tracking_ID": "TRK70012727",
     "Order_Total_INR": 1299,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -4967,7 +4967,7 @@
     "Tracking_ID": "TRK29163535",
     "Order_Total_INR": 2099,
     "Payment_Method": "COD",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -5030,7 +5030,7 @@
       },
       {
         "Status": "Out for Delivery",
-        "Date": "2026-07-20 19:00:00",
+        "Date": "2026-07-21 00:00:00",
         "Location": "Kolkata",
         "Note": "With the Xpressbees courier for final mile delivery."
       },
@@ -5120,7 +5120,7 @@
     "Tracking_ID": "TRK26460116",
     "Order_Total_INR": 1499,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -5216,7 +5216,7 @@
     "Tracking_ID": "TRK72734149",
     "Order_Total_INR": 2099,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -5324,7 +5324,7 @@
     "Tracking_ID": "TRK79538491",
     "Order_Total_INR": 2299,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -5348,7 +5348,7 @@
       },
       {
         "Status": "Out for Delivery",
-        "Date": "2026-09-01 19:00:00",
+        "Date": "2026-09-02 00:00:00",
         "Location": "Delhi",
         "Note": "With the Delhivery courier for final mile delivery."
       }
@@ -5495,7 +5495,7 @@
     "Tracking_ID": "TRK96155337",
     "Order_Total_INR": 999,
     "Payment_Method": "Debit Card",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -5534,7 +5534,7 @@
     "Tracking_ID": "TRK72336371",
     "Order_Total_INR": 2199,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -5585,7 +5585,7 @@
     "Tracking_ID": "TRK52831009",
     "Order_Total_INR": 2399,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -5636,7 +5636,7 @@
     "Tracking_ID": "TRK43322272",
     "Order_Total_INR": 2299,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -5675,7 +5675,7 @@
     "Tracking_ID": "TRK13110670",
     "Order_Total_INR": 2399,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -5726,7 +5726,7 @@
     "Tracking_ID": "TRK76423575",
     "Order_Total_INR": 2499,
     "Payment_Method": "COD",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -5789,7 +5789,7 @@
       },
       {
         "Status": "Out for Delivery",
-        "Date": "2026-09-09 19:00:00",
+        "Date": "2026-09-10 00:00:00",
         "Location": "Chennai",
         "Note": "With the Xpressbees courier for final mile delivery."
       },
@@ -5822,7 +5822,7 @@
     "Tracking_ID": "TRK22976369",
     "Order_Total_INR": 2099,
     "Payment_Method": "COD",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -5861,7 +5861,7 @@
     "Tracking_ID": "TRK15222944",
     "Order_Total_INR": 2099,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -5912,7 +5912,7 @@
     "Tracking_ID": "TRK62741471",
     "Order_Total_INR": 2399,
     "Payment_Method": "Debit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -5951,7 +5951,7 @@
     "Tracking_ID": "TRK65907088",
     "Order_Total_INR": 1899,
     "Payment_Method": "Debit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -5990,7 +5990,7 @@
     "Tracking_ID": "TRK29834119",
     "Order_Total_INR": 799,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -6086,7 +6086,7 @@
     "Tracking_ID": "TRK81555103",
     "Order_Total_INR": 999,
     "Payment_Method": "Debit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -6131,7 +6131,7 @@
     "Tracking_ID": "TRK49945150",
     "Order_Total_INR": 1499,
     "Payment_Method": "Debit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -6170,7 +6170,7 @@
     "Tracking_ID": "TRK56323191",
     "Order_Total_INR": 1999,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -6221,7 +6221,7 @@
     "Tracking_ID": "TRK82286705",
     "Order_Total_INR": 2199,
     "Payment_Method": "Debit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -6317,7 +6317,7 @@
     "Tracking_ID": "TRK74082055",
     "Order_Total_INR": 2699,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -6356,7 +6356,7 @@
     "Tracking_ID": "TRK66087572",
     "Order_Total_INR": 2199,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -6395,7 +6395,7 @@
     "Tracking_ID": "TRK48193218",
     "Order_Total_INR": 999,
     "Payment_Method": "COD",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -6434,7 +6434,7 @@
     "Tracking_ID": "TRK31809610",
     "Order_Total_INR": 1499,
     "Payment_Method": "COD",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -6713,7 +6713,7 @@
     "Tracking_ID": "TRK80890196",
     "Order_Total_INR": 2699,
     "Payment_Method": "Debit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -6815,7 +6815,7 @@
     "Tracking_ID": "TRK71310453",
     "Order_Total_INR": 699,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -6854,7 +6854,7 @@
     "Tracking_ID": "TRK66867700",
     "Order_Total_INR": 1499,
     "Payment_Method": "Debit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -6917,13 +6917,13 @@
       },
       {
         "Status": "Out for Delivery",
-        "Date": "2026-09-09 19:00:00",
+        "Date": "2026-09-11 00:00:00",
         "Location": "Kolkata",
         "Note": "With the Xpressbees courier for final mile delivery."
       },
       {
         "Status": "Delivered",
-        "Date": "2026-09-10 00:00:00",
+        "Date": "2026-09-11 00:00:00",
         "Location": "Kolkata",
         "Note": "Received by customer."
       }
@@ -6950,7 +6950,7 @@
     "Tracking_ID": "TRK80980044",
     "Order_Total_INR": 2299,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -6974,7 +6974,7 @@
       },
       {
         "Status": "Delivery Exception",
-        "Date": "2026-08-21 04:00:00",
+        "Date": "2026-08-22 00:00:00",
         "Location": "Delhi Fulfilment Center",
         "Note": "Weather disruption at the regional hub."
       }
@@ -7064,7 +7064,7 @@
     "Tracking_ID": "TRK23542127",
     "Order_Total_INR": 899,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -7109,7 +7109,7 @@
     "Tracking_ID": "TRK77631755",
     "Order_Total_INR": 2299,
     "Payment_Method": "Debit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -7154,7 +7154,7 @@
     "Tracking_ID": "TRK50332555",
     "Order_Total_INR": 2199,
     "Payment_Method": "Debit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -7262,7 +7262,7 @@
     "Tracking_ID": "TRK17734153",
     "Order_Total_INR": 899,
     "Payment_Method": "COD",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -7376,7 +7376,7 @@
     "Tracking_ID": "TRK38036618",
     "Order_Total_INR": 999,
     "Payment_Method": "Debit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -7427,7 +7427,7 @@
     "Tracking_ID": "TRK42122457",
     "Order_Total_INR": 2199,
     "Payment_Method": "Debit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -7472,7 +7472,7 @@
     "Tracking_ID": "TRK23234972",
     "Order_Total_INR": 2199,
     "Payment_Method": "COD",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -7511,7 +7511,7 @@
     "Tracking_ID": "TRK45000508",
     "Order_Total_INR": 2399,
     "Payment_Method": "COD",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -7562,7 +7562,7 @@
     "Tracking_ID": "TRK75581613",
     "Order_Total_INR": 2199,
     "Payment_Method": "COD",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -7607,7 +7607,7 @@
     "Tracking_ID": "TRK19976458",
     "Order_Total_INR": 2299,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -7829,7 +7829,7 @@
     "Tracking_ID": "TRK22549425",
     "Order_Total_INR": 2099,
     "Payment_Method": "COD",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -7868,7 +7868,7 @@
     "Tracking_ID": "TRK85947990",
     "Order_Total_INR": 2499,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -7907,7 +7907,7 @@
     "Tracking_ID": "TRK82884346",
     "Order_Total_INR": 1799,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -7976,7 +7976,7 @@
       },
       {
         "Status": "Out for Delivery",
-        "Date": "2026-08-13 19:00:00",
+        "Date": "2026-08-14 00:00:00",
         "Location": "Mumbai",
         "Note": "With the Xpressbees courier for final mile delivery."
       },
@@ -8072,7 +8072,7 @@
     "Tracking_ID": "TRK88634827",
     "Order_Total_INR": 2399,
     "Payment_Method": "COD",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -8111,7 +8111,7 @@
     "Tracking_ID": "TRK52503832",
     "Order_Total_INR": 1299,
     "Payment_Method": "Debit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -8243,7 +8243,7 @@
       },
       {
         "Status": "Out for Delivery",
-        "Date": "2026-07-07 19:00:00",
+        "Date": "2026-07-08 00:00:00",
         "Location": "Jaipur",
         "Note": "With the Delhivery courier for final mile delivery."
       },
@@ -8282,7 +8282,7 @@
     "Tracking_ID": "TRK46024950",
     "Order_Total_INR": 2499,
     "Payment_Method": "COD",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -8390,7 +8390,7 @@
     "Tracking_ID": "TRK54230340",
     "Order_Total_INR": 1699,
     "Payment_Method": "COD",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -8492,7 +8492,7 @@
     "Tracking_ID": "TRK83833059",
     "Order_Total_INR": 1899,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -8543,7 +8543,7 @@
     "Tracking_ID": "TRK43914361",
     "Order_Total_INR": 2299,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -8645,7 +8645,7 @@
     "Tracking_ID": "TRK67774765",
     "Order_Total_INR": 699,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -8669,7 +8669,7 @@
       },
       {
         "Status": "Out for Delivery",
-        "Date": "2026-08-04 19:00:00",
+        "Date": "2026-08-05 00:00:00",
         "Location": "Bengaluru",
         "Note": "With the Ecom Express courier for final mile delivery."
       }
@@ -8696,7 +8696,7 @@
     "Tracking_ID": "TRK60213478",
     "Order_Total_INR": 799,
     "Payment_Method": "COD",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -8792,7 +8792,7 @@
     "Tracking_ID": "TRK19015987",
     "Order_Total_INR": 2399,
     "Payment_Method": "Debit Card",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -8861,7 +8861,7 @@
       },
       {
         "Status": "Out for Delivery",
-        "Date": "2026-07-18 19:00:00",
+        "Date": "2026-07-19 00:00:00",
         "Location": "Pune",
         "Note": "With the Ecom Express courier for final mile delivery."
       },
@@ -8894,7 +8894,7 @@
     "Tracking_ID": "TRK89484162",
     "Order_Total_INR": 2299,
     "Payment_Method": "COD",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -8945,7 +8945,7 @@
     "Tracking_ID": "TRK53752954",
     "Order_Total_INR": 2499,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -8990,7 +8990,7 @@
     "Tracking_ID": "TRK56697654",
     "Order_Total_INR": 2299,
     "Payment_Method": "Debit Card",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -9029,7 +9029,7 @@
     "Tracking_ID": "TRK25696616",
     "Order_Total_INR": 2299,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -9068,7 +9068,7 @@
     "Tracking_ID": "TRK95295586",
     "Order_Total_INR": 2099,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -9119,7 +9119,7 @@
     "Tracking_ID": "TRK58189421",
     "Order_Total_INR": 1499,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -9158,7 +9158,7 @@
     "Tracking_ID": "TRK69572772",
     "Order_Total_INR": 2199,
     "Payment_Method": "COD",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -9227,7 +9227,7 @@
       },
       {
         "Status": "Out for Delivery",
-        "Date": "2026-07-13 19:00:00",
+        "Date": "2026-07-14 00:00:00",
         "Location": "Pune",
         "Note": "With the Xpressbees courier for final mile delivery."
       },
@@ -9317,7 +9317,7 @@
     "Tracking_ID": "TRK25755285",
     "Order_Total_INR": 2699,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -9362,7 +9362,7 @@
     "Tracking_ID": "TRK17966873",
     "Order_Total_INR": 1999,
     "Payment_Method": "Debit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -9533,7 +9533,7 @@
     "Tracking_ID": "TRK22501261",
     "Order_Total_INR": 1299,
     "Payment_Method": "COD",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -9584,7 +9584,7 @@
     "Tracking_ID": "TRK83458776",
     "Order_Total_INR": 2099,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -9635,7 +9635,7 @@
     "Tracking_ID": "TRK71272827",
     "Order_Total_INR": 1899,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -9743,7 +9743,7 @@
     "Tracking_ID": "TRK89682313",
     "Order_Total_INR": 2199,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -9767,7 +9767,7 @@
       },
       {
         "Status": "Delivery Exception",
-        "Date": "2026-08-02 04:00:00",
+        "Date": "2026-08-03 00:00:00",
         "Location": "Bengaluru Fulfilment Center",
         "Note": "Vehicle breakdown on the delivery route."
       }
@@ -9818,13 +9818,13 @@
       },
       {
         "Status": "Out for Delivery",
-        "Date": "2026-08-28 19:00:00",
+        "Date": "2026-08-30 00:00:00",
         "Location": "Kolkata",
         "Note": "With the Blue Dart courier for final mile delivery."
       },
       {
         "Status": "Delivered",
-        "Date": "2026-08-29 00:00:00",
+        "Date": "2026-08-30 00:00:00",
         "Location": "Kolkata",
         "Note": "Received by customer."
       }
@@ -9851,7 +9851,7 @@
     "Tracking_ID": "TRK81203615",
     "Order_Total_INR": 699,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -9902,7 +9902,7 @@
     "Tracking_ID": "TRK21635070",
     "Order_Total_INR": 1699,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -9941,7 +9941,7 @@
     "Tracking_ID": "TRK84275638",
     "Order_Total_INR": 899,
     "Payment_Method": "Debit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -9992,7 +9992,7 @@
     "Tracking_ID": "TRK42123815",
     "Order_Total_INR": 799,
     "Payment_Method": "COD",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -10037,7 +10037,7 @@
     "Tracking_ID": "TRK27714442",
     "Order_Total_INR": 2499,
     "Payment_Method": "COD",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -10082,7 +10082,7 @@
     "Tracking_ID": "TRK45189912",
     "Order_Total_INR": 1899,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -10133,7 +10133,7 @@
     "Tracking_ID": "TRK95971459",
     "Order_Total_INR": 999,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -10184,7 +10184,7 @@
     "Tracking_ID": "TRK51630244",
     "Order_Total_INR": 2299,
     "Payment_Method": "COD",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -10223,7 +10223,7 @@
     "Tracking_ID": "TRK99399687",
     "Order_Total_INR": 2199,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -10439,7 +10439,7 @@
     "Tracking_ID": "TRK40133935",
     "Order_Total_INR": 999,
     "Payment_Method": "Debit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -10484,7 +10484,7 @@
     "Tracking_ID": "TRK39955391",
     "Order_Total_INR": 2199,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -10535,7 +10535,7 @@
     "Tracking_ID": "TRK59515518",
     "Order_Total_INR": 2499,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -10574,7 +10574,7 @@
     "Tracking_ID": "TRK30208677",
     "Order_Total_INR": 2199,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -10613,7 +10613,7 @@
     "Tracking_ID": "TRK23951801",
     "Order_Total_INR": 2699,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -10658,7 +10658,7 @@
     "Tracking_ID": "TRK59995026",
     "Order_Total_INR": 1799,
     "Payment_Method": "COD",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -10766,7 +10766,7 @@
     "Tracking_ID": "TRK88478184",
     "Order_Total_INR": 2299,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -10898,7 +10898,7 @@
       },
       {
         "Status": "Out for Delivery",
-        "Date": "2026-07-19 19:00:00",
+        "Date": "2026-07-20 00:00:00",
         "Location": "Bengaluru",
         "Note": "With the Blue Dart courier for final mile delivery."
       },
@@ -11057,7 +11057,7 @@
     "Tracking_ID": "TRK32547129",
     "Order_Total_INR": 1299,
     "Payment_Method": "COD",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -11159,7 +11159,7 @@
     "Tracking_ID": "TRK28419506",
     "Order_Total_INR": 999,
     "Payment_Method": "COD",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -11198,7 +11198,7 @@
     "Tracking_ID": "TRK85920407",
     "Order_Total_INR": 1999,
     "Payment_Method": "Debit Card",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -11306,7 +11306,7 @@
     "Tracking_ID": "TRK33315234",
     "Order_Total_INR": 799,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -11351,7 +11351,7 @@
     "Tracking_ID": "TRK76065552",
     "Order_Total_INR": 2199,
     "Payment_Method": "Debit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -11711,7 +11711,7 @@
     "Tracking_ID": "TRK16462242",
     "Order_Total_INR": 2299,
     "Payment_Method": "COD",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -11813,7 +11813,7 @@
     "Tracking_ID": "TRK31596235",
     "Order_Total_INR": 1299,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -11852,7 +11852,7 @@
     "Tracking_ID": "TRK31086112",
     "Order_Total_INR": 1499,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -11903,7 +11903,7 @@
     "Tracking_ID": "TRK41883191",
     "Order_Total_INR": 699,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -11948,7 +11948,7 @@
     "Tracking_ID": "TRK98854850",
     "Order_Total_INR": 999,
     "Payment_Method": "COD",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -12050,7 +12050,7 @@
     "Tracking_ID": "TRK69020960",
     "Order_Total_INR": 1299,
     "Payment_Method": "COD",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -12101,7 +12101,7 @@
     "Tracking_ID": "TRK89151743",
     "Order_Total_INR": 2299,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -12140,7 +12140,7 @@
     "Tracking_ID": "TRK20597167",
     "Order_Total_INR": 1499,
     "Payment_Method": "COD",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -12215,7 +12215,7 @@
       },
       {
         "Status": "Out for Delivery",
-        "Date": "2026-09-05 19:00:00",
+        "Date": "2026-09-06 00:00:00",
         "Location": "Pune",
         "Note": "With the Xpressbees courier for final mile delivery."
       },
@@ -12248,7 +12248,7 @@
     "Tracking_ID": "TRK47071046",
     "Order_Total_INR": 1999,
     "Payment_Method": "COD",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -12287,7 +12287,7 @@
     "Tracking_ID": "TRK85522135",
     "Order_Total_INR": 799,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -12338,7 +12338,7 @@
     "Tracking_ID": "TRK33112256",
     "Order_Total_INR": 2199,
     "Payment_Method": "Debit Card",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -12389,7 +12389,7 @@
     "Tracking_ID": "TRK59988144",
     "Order_Total_INR": 2499,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -12440,7 +12440,7 @@
     "Tracking_ID": "TRK46160937",
     "Order_Total_INR": 2399,
     "Payment_Method": "COD",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -12479,7 +12479,7 @@
     "Tracking_ID": "TRK79158328",
     "Order_Total_INR": 1699,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -12524,7 +12524,7 @@
     "Tracking_ID": "TRK54524650",
     "Order_Total_INR": 4398,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -12557,7 +12557,7 @@
     "Tracking_ID": "TRK74344794",
     "Order_Total_INR": 2199,
     "Payment_Method": "COD",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -12590,7 +12590,7 @@
     "Tracking_ID": "TRK78240277",
     "Order_Total_INR": 799,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -12623,7 +12623,7 @@
     "Tracking_ID": "TRK58193479",
     "Order_Total_INR": 4198,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -12656,7 +12656,7 @@
     "Tracking_ID": "TRK91912583",
     "Order_Total_INR": 2299,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -12689,7 +12689,7 @@
     "Tracking_ID": "TRK88478694",
     "Order_Total_INR": 4798,
     "Payment_Method": "Credit Card",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -12722,7 +12722,7 @@
     "Tracking_ID": "TRK06615060",
     "Order_Total_INR": 1999,
     "Payment_Method": "Debit Card",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -12755,7 +12755,7 @@
     "Tracking_ID": "TRK71579049",
     "Order_Total_INR": 4598,
     "Payment_Method": "COD",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -12788,7 +12788,7 @@
     "Tracking_ID": "TRK83078203",
     "Order_Total_INR": 5398,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -12821,7 +12821,7 @@
     "Tracking_ID": "TRK67106847",
     "Order_Total_INR": 2399,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 1,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -12854,7 +12854,7 @@
     "Tracking_ID": "TRK01907381",
     "Order_Total_INR": 2598,
     "Payment_Method": "UPI",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [
@@ -12887,7 +12887,7 @@
     "Tracking_ID": "TRK46425548",
     "Order_Total_INR": 4598,
     "Payment_Method": "Debit Card",
-    "Delivered_Qty": 2,
+    "Delivered_Qty": 0,
     "Issue_Type": null,
     "Issue_Reported_Date": null,
     "Shipment_Events": [

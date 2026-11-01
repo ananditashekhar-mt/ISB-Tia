@@ -1,6 +1,6 @@
 """Deterministically enrich Threadly's dataset into a connected, scenario-rich set.
 
-Reads the existing data/orders.json, data/product_catalog.json and
+Reads the immutable data/source/orders.json, data/product_catalog.json and
 data/support_conversations.json and rewrites them (plus a new data/customers.json)
 with:
   - A first-class customer entity (data/customers.json) instead of a UI-side hash.
@@ -77,9 +77,10 @@ def build_customers(orders):
     for order in orders:
         key = (order['Customer_Name_Synthetic'], order['City'])
         customers.setdefault(key, []).append(order['Order_Date'])
+    existing = {(r['Name'],r['City']):r['Customer_ID'] for r in json.loads((DATA / 'source' / 'customers.json').read_text())}
     rows = []
     for index, ((name, city), order_dates) in enumerate(sorted(customers.items(), key=lambda kv: min(kv[1])), start=1):
-        cid = f'CUST-{10000 + index}'
+        cid = existing.get((name,city), 'CUST-' + hashlib.sha256(f'{name}|{city}'.lower().encode()).hexdigest()[:10].upper())
         local = f'{name.lower()}{stable_int(name + city) % 90 + 10}'
         rows.append({
             'Customer_ID': cid, 'Name': name, 'City': city,
@@ -165,18 +166,18 @@ def build_confirmed_orders(customer_lookup, catalog, start_id):
             'Tracking_ID': f'TRK{stable_int(order_id + "trk") % 10**8:08d}',
             'Order_Total_INR': row['Price_INR'] * qty,
             'Payment_Method': pick(order_id + 'pay', payments),
-            'Delivered_Qty': qty, 'Issue_Type': None, 'Issue_Reported_Date': None})
+            'Delivered_Qty': 0, 'Issue_Type': None, 'Issue_Reported_Date': None})
     return new_orders
 
 
 def main():
-    orders = load('orders')
+    orders = json.loads((DATA / 'source' / 'orders.json').read_text())
     catalog = load('product_catalog')
     customers, customer_lookup = build_customers(orders)
 
     for order in orders:
         order['Customer_ID'] = customer_lookup[(order['Customer_Name_Synthetic'], order['City'])]
-        order.setdefault('Delivered_Qty', order['Qty'])
+        order['Delivered_Qty'] = order['Qty'] if order['Order_Status'] == 'Delivered' else 0
         order.setdefault('Issue_Type', None)
         order.setdefault('Issue_Reported_Date', None)
 
@@ -195,6 +196,9 @@ def main():
     final_orders = []
     for order in all_orders:
         order['Shipment_Events'] = build_events(order)
+        # Preserve lifecycle order when source dates have only day precision.
+        for previous, event in zip(order['Shipment_Events'], order['Shipment_Events'][1:]):
+            event['Date'] = max(previous['Date'], event['Date'])
         final_orders.append({key: order[key] for key in ordered_fields})
 
     conversations = load('support_conversations')
